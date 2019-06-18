@@ -1,0 +1,14 @@
+Experiment on 2019_05_15_15_44
+alpha	theta	re_default	sp_default	veracity	iteration
+1.5	0.5	0.8	0.9	0.5	20
+Initialize Time: 5.55514121055603
+Total Iteration Time: 578.6433668136597
+Total Time with Experiment: 584.1985080242157
+
+Experiment on 2019_05_17_21_49
+alpha	theta	re_default	sp_default	veracity	iteration
+1.5	0.5	0.8	0.9	0.5	20
+Initialize Time: 4.03093957901001
+Total Iteration Time: 473.47883653640747
+Total Time with Experiment: 477.5097761154175
+
