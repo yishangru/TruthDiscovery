@@ -273,7 +273,7 @@ def main_for_crawler_book():
     truth_file.close()
     validation_file.close()
 
-#main_for_crawler_wiki()
-#main_for_crawler_book()
 if __name__ == '__main__':
-    main_for_crawler_book()
+    # main_for_crawler_wiki()
+    # main_for_crawler_book()
+    pass
