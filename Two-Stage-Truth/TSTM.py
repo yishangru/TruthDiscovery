@@ -55,6 +55,7 @@ def initialization_data_prepare(dataset, datasetPath):
                 generate_claim_dict(claimDict, dataWrite)
         dataFile.close()
 
+    """
     elif dataset == -1:  # this is for testing
         dataFile = open(file=test_fact_path, mode="r", encoding="utf-8")
         dataLines = dataFile.readlines()
@@ -71,6 +72,7 @@ def initialization_data_prepare(dataset, datasetPath):
             if not dataLine == 0:
                 generate_claim_dict(claimDict, dataWrite)
         dataFile.close()
+    """
     return factDict, claimDict
 
 def main_for_TSTM(dataset, ratio, alpha, iteration_SATM, whether_estimate, datasetPath, outputWritePath):
@@ -79,21 +81,22 @@ def main_for_TSTM(dataset, ratio, alpha, iteration_SATM, whether_estimate, datas
     mapping[1] = "movie"
     mapping[-1] = "test"
 
-    # for TDM
+    ### for TDM
     beta_set = [10, 10]
     thin_number = 1
     burnin_number = 2
     iteration_TDM = 7
-    # end for TDM
+    ### end for TDM
 
-    # adjust factor
+    ### adjust factor
     recall_ad = 0.8
     sp_ad = 0.9
+    ### end for adjust factor
 
-    # for SATM
+    ### for SATM
     veracity = 0.5
     theta = 0.5
-    # end for SATM
+    ### end for SATM
 
     fileWrite = mapping[dataset]
 
