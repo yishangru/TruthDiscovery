@@ -20,4 +20,5 @@ Orginal data contains two datasets:
 2. Movie
   - Movie and (multiple) director information
   - Conflicts on director information, provided by multiple information sources (websites)
+
 We perform data cleaning on both datasets and use them as inputs for our model.
