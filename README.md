@@ -12,7 +12,8 @@ First stage: estimate source quality based on quality measure, i.e. recall and s
 
 Second stage: use estimated source quality for initialization and perform truth discovery.
 
-Thank Xueling LIN for sharing the data used in her work (Domain-Aware Multi-Truth Discovery from Conflicting Sources, VLDB 2018)
+Thank Xueling LIN for sharing the data used in her work (Domain-Aware Multi-Truth Discovery from Conflicting Sources, VLDB 2018).
+
 Orginal data contains two datasets:
 1. Book
   - Book and (multiple) author information
