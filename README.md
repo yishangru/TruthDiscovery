@@ -1,7 +1,7 @@
 # TruthDiscovery
 Truth Discovery in DBGroup@SUSTech
 
-## project note
+## Project Note
 This is my graduation project for my bachelor’s degree.
 
 ## Project Details
