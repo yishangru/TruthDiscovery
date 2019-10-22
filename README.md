@@ -23,3 +23,7 @@ Orginal data contains two datasets:
   - Conflicts on director information, provided by multiple information sources (websites)
 
 We perform data cleaning on both datasets and use them as inputs for our model.
+
+The dataset downloading links provided by Xueling are:
+- Book: https://drive.google.com/open?id=1Q11D7V4vuhgpugCC_Db_GbP4149XnMpY
+- Movie: https://drive.google.com/open?id=1hTAQcGeHSUuu0fZq655q0wWkRZVdQEnr
