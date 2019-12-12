@@ -22,7 +22,6 @@ def crawl_from_moviedb(movie_name, year):
         search_condition = [".//a[@id='movie' and @title='Movies']", "//a[@id='tv' and @title='TV Shows']"]
         #search_condition = ["/movie?", "/tv?"]
         for searching in range(len(search_condition)):
-            #print(driver.current_url)
             driver.get(driver.find_element_by_xpath(search_condition[searching]).get_attribute('href'))
             #"https://www.themoviedb.org/search/movie?query=Adam%20&amp;%20Paul&language=en"
             #"https://www.themoviedb.org/search/tv?query=Adam%20&amp;%20Paul&language=en"
@@ -274,6 +273,6 @@ def main_for_crawler_book():
     validation_file.close()
 
 if __name__ == '__main__':
-    # main_for_crawler_wiki()
+    # main_for_crawler_movie()
     # main_for_crawler_book()
     pass
