@@ -32,8 +32,9 @@ class DataCleaner(object):
                 if j == len(self.indexKeys) - 1:
                     presentDict.append(dataLine)
 
-    def remove_single_source(self):
 
+    def remove_single_source(self):
+        pass
 
     def check_naming_convention():
         pass
@@ -47,5 +48,9 @@ class DataCleaner(object):
     def write_data(self, dataWritePath):
         pass
 
+"""
+For movie: [0, 3, 2] -> title, year, source
+For book: 
+"""
 dataCleaner = DataCleaner("../Data/test.txt")
 dataCleaner.load_data([0, 3, 2])
