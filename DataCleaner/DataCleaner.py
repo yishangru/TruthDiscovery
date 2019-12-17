@@ -22,15 +22,15 @@ class DataCleaner(object):
         for i, dataLine in enumerate(read_data_lines):
             if i == 0:
                 self.dataHeader = dataLine
-            else:
-                presentDict = self.dataDict
-                dataSplit = dataLine.strip("\n").split("\t")
-                for j, index in enumerate(self.indexKeys):
-                    if dataLine[index] not in presentDict.keys():
-                        presentDict[dataSplit[index]] = list() if j == len(self.indexKeys) - 1 else dict()
-                    presentDict = presentDict[dataSplit[index]]
-                    if j == len(self.indexKeys) - 1:
-                        presentDict.append(dataLine)
+                continue
+            presentDict = self.dataDict
+            dataSplit = dataLine.strip("\n").split("\t")
+            for j, index in enumerate(self.indexKeys):
+                if dataLine[index] not in presentDict.keys():
+                    presentDict[dataSplit[index]] = list() if j == len(self.indexKeys) - 1 else dict()
+                presentDict = presentDict[dataSplit[index]]
+                if j == len(self.indexKeys) - 1:
+                    presentDict.append(dataLine)
 
     def remove_single_source(self):
 
