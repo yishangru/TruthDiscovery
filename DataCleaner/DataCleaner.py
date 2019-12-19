@@ -32,7 +32,6 @@ class DataCleaner(object):
                 if j == len(self.indexKeys) - 1:
                     presentDict.append(dataLine)
 
-
     def remove_single_source(self):
         pass
 
