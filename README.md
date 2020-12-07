@@ -25,5 +25,5 @@ Orginal data contains two datasets:
 We perform data cleaning on both datasets and use them as inputs for our model.
 
 The dataset downloading links provided by Xueling are:
-- Book: https://drive.google.com/open?id=1Q11D7V4vuhgpugCC_Db_GbP4149XnMpY
-- Movie: https://drive.google.com/open?id=1hTAQcGeHSUuu0fZq655q0wWkRZVdQEnr
+- [Book](https://drive.google.com/file/d/1U5zF17dLxho3Lgjqeyxpw_vr0qoLF4Ao/view?usp=sharing)
+- [Movie](https://drive.google.com/file/d/1VMaYONAKxGgSyNXldZop5cD2SeG4MFJq/view?usp=sharing)
