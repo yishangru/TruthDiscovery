@@ -27,3 +27,6 @@ We perform data cleaning on both datasets and use them as inputs for our model.
 The dataset downloading links provided by Xueling are:
 - [Book](https://drive.google.com/file/d/1U5zF17dLxho3Lgjqeyxpw_vr0qoLF4Ao/view?usp=sharing)
 - [Movie](https://drive.google.com/file/d/1VMaYONAKxGgSyNXldZop5cD2SeG4MFJq/view?usp=sharing)
+
+## Validation
+The validation database for our experiments is available under the `validation` directory. We have selected 400 books and movies with conflicts from the raw database for validations.
