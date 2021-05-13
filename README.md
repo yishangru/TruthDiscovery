@@ -29,4 +29,4 @@ The dataset downloading links provided by Xueling are:
 - [Movie](https://drive.google.com/file/d/1VMaYONAKxGgSyNXldZop5cD2SeG4MFJq/view?usp=sharing)
 
 ## Validation
-The validation database for our experiments is available under the `validation` directory. We have selected 400 books and movies with conflicts from the raw database for validations.
+The validation database for our experiments is available under the `validation` directory. We have selected 400 books and 320 movies with conflicts from the raw database for validations.
